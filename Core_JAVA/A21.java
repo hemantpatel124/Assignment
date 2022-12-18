@@ -1,0 +1,5 @@
+/*Create a class named 'Print Number' to print various numbers of different data types by creating different methods  with the same name 'printn' having a parameter for each data type.*/
+package Core_JAVA;import java.util.Scanner;class PrintNumber{	public void printn(int num) {		System.out.println("Print Integer Numebr : "+ num);	}	public void printn(float num) {		System.out.println("Print Float Numebr : "+ num);	}	public void printn(double num) {		System.out.println("Print Double Numebr : "+ num);	}	public void printn(char num) {		System.out.println("Print Char Numebr : "+ num);	}	public void printn(byte num) {		System.out.println("Print Byte Numebr : "+ num);	}	public void printn(short num) {		System.out.println("Print Short Numebr : "+ num);	}	public void printn(long num) {		System.out.println("Print Long Numebr : "+ num);	}	}
+public class A21 {
+	public static void main(String[] args) {		PrintNumber p=new PrintNumber();				p.printn(7);	}	
+}
